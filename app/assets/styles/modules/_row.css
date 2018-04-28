@@ -92,8 +92,8 @@
             width: 63%;
         }
     }
-
-    &--equal-ht-md {
+    /* Begin Equal Height Rules */
+    .flexbox &--equal-ht-md {
             @mixin atMedium {
                 display: flex;
             }
@@ -104,7 +104,7 @@
             }
         }
 
-        &--equal-ht-lg {
+        .flexbox &--equal-ht-lg {
             @mixin atLarge {
                 display: flex;
             }
