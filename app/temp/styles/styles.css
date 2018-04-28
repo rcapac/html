@@ -638,11 +638,10 @@ a {
     }
 
 @media (min-width: 1080px) {
-
-.pg-section--testimonials {
-            background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
-            background-size: cover
-    };
+            .pg-section--testimonials.lazyloaded {
+                background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+                background-size: cover;
+            };
     }
 
 .pg-section--no-b-padding-md {
